@@ -106,7 +106,7 @@
 
     text-align: center;
 
-    font-size: 7.1vw;
+    font-size: 6.5vw;
 
     color: #ffffff;
   }
@@ -116,7 +116,7 @@
   }
 
   .mobile-gradient-bg-rest > section#two > p {
-    padding-top: 19vh;
+    padding-top: 15vh;
   }
 
   .mobile-gradient-bg-rest > section#two > img {
@@ -186,33 +186,55 @@
   }
 }
 
-@media screen and (max-height: 480px) and (max-width: 320px) {
-  .mobile-gradient-bg-rest > section > p {
-    font-size: 5.5vw;
+@media screen and (max-height: 815px) and (max-width: 380px) {
+  .mobile-gradient-bg-rest > section#two > img {
+    margin-top: 15vh;
   }
+  .mobile-gradient-bg-rest > section#two > div#button2 {
+    margin-top: 15vh;
+  }
+}
 
+@media screen and (max-height: 736px) and (max-width: 424px) {
   .mobile-gradient-bg-rest > section#four > div#button_up {
-    padding-top: 4vh;
+    padding-top: 5vh;
   }
 
   .mobile-social-media {
-    margin-top: 6vh;
+    margin-top: 7vh;
+  }
+}
+
+@media screen and (max-height: 635px) and (max-width: 440px) {
+  .mobile-gradient-bg-rest > section#three > p {
+    padding-top: 12vh;
+  }
+
+  .mobile-gradient-bg-rest > section#four > div#button_up {
+    padding-top: 5vh;
+  }
+
+  .mobile-social-media {
+    margin-top: 7vh;
   }
 
   .mobile-social-media-link {
-    margin-bottom: 4vh;
+    margin-bottom: 5vh;
   }
 
-  .mobile-gradient-bg-rest > section#four p.mobile-aviso-legal {
-    margin: 0;
-    margin-top: 2vh;
-
-    font-weight: normal;
-    font-size: 3.5vw;
+  .mobile-social-media-link > h1 {
+    font-size: 5vw;
   }
 }
 
 @media screen and (max-height: 640px) and (max-width: 360px) {
+  .mobile-gradient-bg-rest > section#two > img {
+    margin-top: 12vh;
+  }
+  .mobile-gradient-bg-rest > section#two > div#button2 {
+    margin-top: 12vh;
+  }
+
   .mobile-social-media {
     margin-top: 10vh;
   }
@@ -223,12 +245,130 @@
   }
 }
 
-@media screen and (max-height: 736px) and (max-width: 414px) {
+@media screen and (max-height: 610px) and (max-width: 470px) {
+  .mobile-button > h2 {
+    margin: 1vh 0 0 0;
+    font-size: 4.5vw;
+  }
+
+  .mobile-button > img {
+    width: 13vw;
+  }
+
+  .mobile-gradient-bg-rest > section#two > p {
+    padding-top: 10vh;
+    font-size: 6vw;
+  }
+  .mobile-gradient-bg-rest > section#three > p {
+    padding-top: 10vh;
+  }
+
   .mobile-gradient-bg-rest > section#four > div#button_up {
-    padding-top: 6vh;
+    padding-top: 3vh;
   }
 
   .mobile-social-media {
-    margin-top: 10vh;
+    margin-top: 8vh;
+  }
+
+  .mobile-social-media-link > h1 {
+    font-size: 4.5vw;
+  }
+
+  .mobile-gradient-bg-rest > section#four p.mobile-aviso-legal {
+    font-size: 3vw;
+    margin-top: 0.5vh;
+  }
+}
+
+@media screen and (max-height: 481px) and (max-width: 321px) {
+  .mobile-gradient-bg-rest > section#two > img {
+    margin-top: 9vh;
+  }
+  .mobile-gradient-bg-rest > section#two > div#button2 {
+    margin-top: 17vh;
+  }
+
+  .mobile-gradient-bg-rest > section#three > p {
+    padding-top: 15vh;
+  }
+
+  .mobile-gradient-bg-rest > section#three > div#button3 {
+    margin-top: 20vh;
+  }
+
+  .mobile-gradient-bg-rest > section > p {
+    font-size: 5.5vw;
+  }
+
+  .mobile-gradient-bg-rest > section#four > div#button_up {
+    padding-top: 4vh;
+  }
+
+  .mobile-social-media {
+    margin-top: 9vh;
+  }
+
+  .mobile-social-media-link {
+    margin-bottom: 4vh;
+  }
+
+  .mobile-gradient-bg-rest > section#four p.mobile-aviso-legal {
+    margin: 0;
+    margin-top: 5vh;
+
+    font-weight: normal;
+    font-size: 3.4vw;
+  }
+}
+
+@media screen and (max-height: 580px) and (max-width: 330px) {
+  .mobile-gradient-bg-rest > section#two > p {
+    padding-top: 12vh;
+  }
+  .mobile-gradient-bg-rest > section#two > div#button2 {
+    margin-top: 17vh;
+  }
+
+  .mobile-gradient-bg-rest > section#three > p {
+    padding-top: 18vh;
+  }
+  .mobile-gradient-bg-rest > section#three > div#button3 {
+    margin-top: 17vh;
+  }
+
+  .mobile-button > h2 {
+    margin: 1vh 0 0 0;
+    font-size: 5.5vw;
+  }
+
+  .mobile-button > img {
+    width: 16vw;
+  }
+
+  .mobile-gradient-bg-rest > section#four > div#button_up {
+    padding-top: 4vh;
+  }
+
+  .mobile-social-media {
+    margin-top: 9vh;
+  }
+
+  .mobile-social-media-link {
+    margin-bottom: 6vh;
+  }
+  .mobile-social-media-link > img {
+    margin-bottom: 2vh;
+  }
+
+  .mobile-social-media-link > h1 {
+    font-size: 5vw;
+  }
+
+  .mobile-gradient-bg-rest > section#four p.mobile-aviso-legal {
+    margin-top: 1vh;
+
+    font-weight: normal;
+    font-size: 3.4vw;
   }
 }
