@@ -90,7 +90,7 @@
       <div class="mobile-gradient-bg-rest">
         <!-- SECOND PAGE -->
         <section id="two">
-          <p class="txt-raleway">
+          <p class="mobile-story-txt txt-raleway">
             Queres ir tomar café com amigos ou com aquela pessoa especial e não
             sabes se o sítio onde queres ir é seguro?
           </p>
@@ -100,7 +100,7 @@
         <!-- END SECOND PAGE -->
         <!-- THIRD PAGE -->
         <section id="three">
-          <p class="txt-raleway">
+          <p class="mobile-story-txt txt-raleway">
             A FeelSafe está cá para ti! Segue-nos nas redes sociais e fica
             atento.
           </p>
@@ -161,6 +161,13 @@
         $(`#button${i}`).load("swipe_up_button.html");
       }
     });
+
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#four").offset().top,
+      },
+      1000
+    );
 
     $("#button1").click(function () {
       $([document.documentElement, document.body]).animate(
